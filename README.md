@@ -1,29 +1,29 @@
-# README #
+# React JS Boilerplate
 
-This README would normally document whatever steps are necessary to get your application up and running.
+One of my last boilerplates
 
-### What is this repository for? ###
+## Features
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Docker (improvements needed)
+* prettier and eslint rules checking on pre-commit hook (for changed files)
+* Hot Module Replacement
+* Redux-saga
+* React-router
+* Immutable.js
+* Bundle analyzing on build
 
-### How do I get set up? ###
+## Start
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+1) npm i
+2) npm start
 
-### Contribution guidelines ###
+## Build
 
-* Writing tests
-* Code review
-* Other guidelines
+1) npm i
+2) npm run build
 
-### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+## Lint
+
+1) npm i
+2) npm run lint

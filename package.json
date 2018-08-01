@@ -1,10 +1,10 @@
 {
-  "name": "Anonym",
+  "name": "react_js_boilerplate",
   "license": "UNLICENSED",
   "private": true,
-  "version": "2.0.0",
+  "version": "1.0.0",
   "main": "index.js",
-  "author": "anonym",
+  "author": "maksym_fedenko",
   "scripts": {
     "build:only": "webpack --config ./config/webpack.production.js --mode production",
     "build": "npm run clean && npm run build:only && npm run copyAssets",
@@ -16,9 +16,7 @@
     "lint": "bash -c 'eslint --ext=js --ext=jsx ${1-./src}' -- ",
     "lint:fix": "bash -c 'eslint --ext=js --ext=jsx --fix ${1-./src}' -- ",
     "lint:css": "bash -c 'stylelint \"${1-./src}/**/*.scss\"' -- ",
-    "lint:css:fix": "bash -c 'stylelint --fix \"${1-./src}/**/*.scss\"' -- ",
-    "add": "docker exec ddt_react npm i",
-    "remove": "docker exec ddt_react npm uninstall"
+    "lint:css:fix": "bash -c 'stylelint --fix \"${1-./src}/**/*.scss\"' -- "
   },
   "husky": {
     "hooks": {
